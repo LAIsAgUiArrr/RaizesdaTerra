@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    background-color: #e09c4f; 
+    color: #333;
+}
+
+header {
+    background-color:#fb5607;
+    color: rgb(24, 6, 6); 
+    padding: 15px 0;
+    text-align: center; 
+}
+header img{
+    width:20%;
+    border:white 2px solid;
+    border-radius:50px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 75%; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+main {
+    display:flex;
+    justify-content:space-between;
+    padding: 20px;  
+
+}
+main img{
+    width:850px;
+    height:640px;
+    border-radius:20px;
+}
+
+footer {
+    background-color:#da6c3a;
+    display:grid;
+    place-items:center;
+    height:50px;
+    color:black;
+}
+
+
+.pratos-info {
+    background-color: rgb(230, 117, 24); 
+    color: white; 
+    border-radius: 8px; 
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px; 
+}
+
+
+ul li strong {
+    color: #221b10; 
+}
